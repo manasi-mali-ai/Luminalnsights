@@ -1,4 +1,4 @@
-# 📊 Lumminalnsights
+# 📊 Luminalnsights
 
 **Insight Summarizer** is an AI-powered Streamlit application that generates technical and non-technical summaries from both structured data files (like CSV, JSON, Excel) and visual content (charts, graphs, diagrams).  
 It’s built for **professors**, **researchers**, and **industry analysts** who want instant, human-friendly insights from data or visuals.
