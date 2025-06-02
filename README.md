@@ -128,7 +128,7 @@ pip install -r requirements.txt
 ## 🖥️ Running the App
 
 ```bash
-streamlit run app.py
+streamlit run app.py (streamlit run app.py --server.port $PORT --server.enableCORS false | for dynamic port mapping according to deployment server )
 ```
 
 > This will open the app in your browser at `http://localhost:8501`
