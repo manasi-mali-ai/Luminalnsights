@@ -5,9 +5,9 @@ import pandas as pd
 import os
 from utils.summaries import summarize_data_file, summarize_image_file
 
-st.set_page_config(page_title="Lumminalnsights", layout="wide")
+st.set_page_config(page_title="Luminalnsights", layout="wide")
 
-st.title("📊 Lumminalnsights")
+st.title("📊 Luminalnsights")
 st.markdown(
     "Use this tool to automatically generate **technical and non-technical summaries** "
     "for your **data files or visual images (charts/diagrams)**."
