@@ -74,6 +74,16 @@ with tabs[0]:
                         st.warning("No numeric columns found.")
 
             st.subheader("📝 Human-Friendly Summary")
+            st.markdown("""
+                <style>
+                pre code {
+                    white-space: pre-wrap !important;       /* wrap code lines */
+                    word-break: break-word !important;      /* break long words */
+                }
+                </style>
+            """, unsafe_allow_html=True)
+
+            # Then render your code block
             st.markdown(f"```text\n{final_summary}\n```")
 
 # ---------------- Tab 2: Image Summary ----------------
@@ -92,6 +102,16 @@ with tabs[1]:
         if image:
             st.image(image, caption="🖼️ Uploaded Image", use_column_width=True)
             st.subheader("🔎 AI-Powered Image Summary")
-            st.markdown(f"```text\n{image_summary}\n```")
+            st.markdown("""
+                <style>
+                pre code {
+                    white-space: pre-wrap !important;       /* wrap code lines */
+                    word-break: break-word !important;      /* break long words */
+                }
+                </style>
+            """, unsafe_allow_html=True)
+
+            # Then render your code block
+            st.markdown(f"```text\n{final_summary}\n```")
         else:
             st.error(f"❌ {image_summary}")
