@@ -112,6 +112,6 @@ with tabs[1]:
             """, unsafe_allow_html=True)
 
             # Then render your code block
-            st.markdown(f"```text\n{final_summary}\n```")
+            st.markdown(f"```text\n{image_summary}\n```")
         else:
             st.error(f"❌ {image_summary}")
